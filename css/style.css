@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 
 /* variables */
 
- :root {
+:root {
     --main-color: #19c8fa;
     --secondary-color: rgb(15 116 143 / 70%);
     --third-color: #7c7e82
@@ -115,6 +116,7 @@ html {
     .header .container nav ul {
         display: none;
     }
+
     .header .container nav:hover ul {
         display: block;
     }
@@ -196,9 +198,11 @@ html {
     .landing .content {
         width: 100%
     }
+
     .change-angle {
         display: none;
     }
+
     .landing .text {
         max-width: 100%;
     }
@@ -339,16 +343,20 @@ section .special-header p {
     section:nth-of-type(2) .our-services .first {
         flex-direction: column;
     }
+
     section:nth-of-type(2) .our-services {
         text-align: center;
     }
+
     section:nth-of-type(2) .our-services .first {
         flex-direction: column;
         align-items: center;
     }
+
     section:nth-of-type(2) .our-services .first i {
         margin-bottom: 20px;
     }
+
     section .line {
         min-width: 30%;
     }
@@ -413,9 +421,11 @@ section:nth-of-type(3) .all .text {
     section:nth-of-type(3) .all {
         width: 100%;
     }
+
     section:nth-of-type(3) .all .text {
         width: 100%
     }
+
     section:nth-of-type(3) .text h2 {
         text-transform: capitalize;
     }
@@ -605,9 +615,11 @@ section:nth-of-type(5) .all .text p {
         height: 100%;
         --secondary-color: rgb(15 116 143 / 40%);
     }
+
     section:nth-of-type(5) .all::before {
         height: 100%;
     }
+
     section:nth-of-type(5) .all .text h3 {
         font-size: 15px;
     }
@@ -790,14 +802,17 @@ section:nth-of-type(6) .box i::after {
         display: block;
         text-align: center;
     }
+
     .all-content .container .image img {
         margin: 0 auto;
         margin-bottom: 20px;
     }
+
     .all-content .container .image .text p {
         width: auto;
         text-align: center;
     }
+
     .all-content .container .content .main-text p {
         width: auto;
     }
@@ -807,6 +822,7 @@ section:nth-of-type(6) .box i::after {
     .all-content .container .all-content .container .image {
         display: flex;
     }
+
     .all-content .container .image .text p {
         width: 300px;
         text-align: center;
@@ -898,9 +914,11 @@ section:nth-of-type(6) .box i::after {
         text-align: center;
         margin: 0 auto;
     }
+
     .all-content .container .image {
         text-align: center;
     }
+
     .all-content .container .image p {
         margin: auto;
     }
@@ -910,10 +928,12 @@ section:nth-of-type(6) .box i::after {
     .all-content .container {
         min-width: 973px;
     }
+
     .all-content .container>div {
         flex-basis: 45%;
         text-align: center;
     }
+
     .all-content .container .image {
         text-align: center;
     }
@@ -959,6 +979,7 @@ section:nth-of-type(8) .container .quote q {
         left: 0;
         transform: translate(0, -50%);
     }
+
     section:nth-of-type(8) .container .quote q {
         font-size: 20px;
         left: 0;
@@ -1090,9 +1111,11 @@ section:nth-of-type(11) .container {
         max-width: 110%;
         flex-basis: 75%;
     }
+
     section:nth-of-type(11) .container p {
         text-align: center;
     }
+
     section:nth-of-type(11) .container form input[type="email"] {
         width: calc(100% + 100px);
     }
